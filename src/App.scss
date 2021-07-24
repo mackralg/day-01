@@ -1,0 +1,43 @@
+body{
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+*{
+  box-sizing: border-box;
+}
+.App {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .App-header {
+    background-color: #ffe123;
+    box-shadow: 2px 4px 5px 0 rgba(0, 0, 0, 0.45);
+    padding: 5px 15px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  } 
+  .App-content {
+    // background-color: #6fbadd;
+    padding: 5px 15px;
+  } 
+  .App-footer {
+    background-color: #ffe123;
+    padding: 5px 15px;
+    text-align: center;
+    position: fixed;
+    border-radius: 12px 12px 0 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    .hashtag{
+      color: #FF3F00;
+      font-weight: 500;
+    }
+  } 
+}
+
